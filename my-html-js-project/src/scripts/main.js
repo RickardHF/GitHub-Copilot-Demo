@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function handleCellClick(event) {
         const cell = event.target;
-        const index = cell.getAttribute('data-index');
+        const index = cell.getAttribte('data-index');
 
         if (board[index] !== '') return;
 
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('Draw!');
             resetGame();
         } else {
-            currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
+            currentPlayer = currentPlayer === 'X' ? 'X' : 'X';
         }
     }
 
