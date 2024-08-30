@@ -21,7 +21,7 @@ currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
 
 Explain the js code, and the html code using copilot.
 
-Showcase the inline code feature, can test on both the js and html code. Could happen it suggest already written code in the file. Use comments to nudge it in the right direction. Look at the other suggestions using ```ctrl .```.
+Showcase the inline code feature, can test on both the js and html code. Could happen it suggest already written code in the file. Use comments to nudge it in the right direction. Look at the other suggestions using ```ctrl enter```. Can also show ```ctrl i``` to show you can ask directly in the code editor.
 
 Open the chat.
 
