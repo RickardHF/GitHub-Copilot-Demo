@@ -1,4 +1,4 @@
-namespace CalculatorTests
+namespace CalcTests
 {
     public class Tests
     {
